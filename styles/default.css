@@ -1,0 +1,46 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a, a:hover, a:visited, a:active {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.post-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.site-footer {
+  background-color: #041a22;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 12px; 
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:visited,
+.site-footer a:active {
+  text-decoration: none;
+}
+
+.post-date {
+  font-size: 14px;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,37 @@
+# Basic Settings
+title: Erika C. Matesz Bueno
+email: mateszbueno@gmail.com
+description: Uma descrição curta do seu site
+
+# Build Settings
+markdown: kramdown
+theme: minima
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title/
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+  - .git
+
+# Collections
+collections:
+  nome_da_coleta:
+    output: true
+    permalink: /:collection/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Development settings
+show_drafts: false
+
+# SEO Settings
+baseurl: "" # Se seu site não está na raiz do domínio, ajuste aqui
