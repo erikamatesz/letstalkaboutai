@@ -4,8 +4,9 @@ email: mateszbueno@gmail.com
 description: Uma descrição curta do seu site
 
 # Build Settings
-markdown: kramdown
 theme: minima
+markdown: kramdown
+highlighter: rouge
 
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title/

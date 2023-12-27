@@ -44,3 +44,28 @@ a, a:hover, a:visited, a:active {
   margin-top: 8px;
   margin-bottom: 12px;
 }
+
+pre {
+  overflow-x: auto;
+  font-size: 0.85em;
+  background-color: #041a22;
+  color: #f8f8f2;
+  padding: 20px;
+}
+
+code {
+  display: block;
+}
+
+code span {
+  color: #f8f8f2;
+}
+
+code .k { color: #f92672; }
+code .n { color: #66d9ef; }
+code .s, code .p { color: #fd971f; }
+code .c1, code .cm { color: #75715e; }
+code .o, code .op { color: #f8f8f2; }
+code .nb, code .nc, code .ne, code .ni, code .nn { color: #a6e22e; }
+code .nv, code .vg { color: #ae81ff; }
+
