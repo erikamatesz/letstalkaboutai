@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hey :)
+title: Info :)
 permalink: /info/
 ---
 

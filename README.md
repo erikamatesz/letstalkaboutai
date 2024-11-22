@@ -1,5 +1,3 @@
-# Erika C. Matesz Bueno's Website @ Github Pages
+# Let's talk about AI
 
-WIP
-
-This is the content repo for https://erikamatesz.github.io/.
+Blog repo.
