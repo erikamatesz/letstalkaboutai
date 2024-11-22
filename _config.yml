@@ -35,4 +35,4 @@ plugins:
 show_drafts: false
 
 # SEO Settings
-baseurl: ""
+baseurl: "/"
