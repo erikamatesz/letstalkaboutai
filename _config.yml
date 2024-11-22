@@ -35,4 +35,4 @@ plugins:
 show_drafts: false
 
 # SEO Settings
-baseurl: "" # Se seu site não está na raiz do domínio, ajuste aqui
+baseurl: ""
