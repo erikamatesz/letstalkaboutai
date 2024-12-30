@@ -6,7 +6,7 @@ body {
 }
 
 p { 
-  font-size: 11px;
+  font-size: 12px;
 }
 
 a, a:hover, a:visited, a:active {
@@ -97,4 +97,11 @@ code .nv, code .vg { color: #ae81ff; }
 .navbar-nav .nav-link {
   padding-left: 0;
   padding-right: 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-width: 320px;
+    height: auto;
+  }
 }
