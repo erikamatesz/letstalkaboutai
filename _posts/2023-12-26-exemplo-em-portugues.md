@@ -6,11 +6,7 @@ title:
   es: Título en español
 date: 2023-12-26 16:30:00 -0300
 categories: [bilingual]
-content:
-  pt: |
-    Conteúdo do post em português.
-  en: |
-    Content of the post in English.
-  es: |
-    Contenido del post en español.
+content_pt: "Conteúdo de teste em português."
+content_en: "Test content in English."
+content_es: "Contenido de prueba en español."
 ---
