@@ -9,12 +9,14 @@ layout: default
         {% for post in sorted_posts %}
         <li>
             {{ post.date | date: "%d-%m-%Y" }} - 
-            {% if post.categories contains 'portugues' %}
-            🇧🇷
-            {% elsif post.categories contains 'english' %}
-            🇬🇧
+            {% if post.categories contains 'bilingual' %}
+            🌐
             {% endif %}
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url }}">
+                <strong>🇧🇷</strong> {{ post.title.pt }} |
+                <strong>🇬🇧</strong> {{ post.title.en }} |
+                <strong>🇪🇸</strong> {{ post.title.es }}
+            </a>
         </li>
         {% endfor %}
     </ul>
