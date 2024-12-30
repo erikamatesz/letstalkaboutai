@@ -5,6 +5,10 @@ body {
   min-height: 100vh;
 }
 
+p { 
+  font-size: 11px;
+}
+
 a, a:hover, a:visited, a:active {
   color: #290274;
   text-decoration: none;
